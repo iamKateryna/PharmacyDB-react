@@ -1,0 +1,28 @@
+@import "../Constants.css";
+
+.table{
+    flex: 1 1 auto;
+    margin: 0 40px;
+    background: var(--pharmacy-green);
+    color:var(--pharmacy-white);
+    border-collapse: collapse;
+    font-family: Roboto;
+}
+
+.table tr:nth-child(even){
+    background-color: var(--pharmacy-middle-green);
+}
+
+th, td{
+    padding: 10px 15px;
+    text-align: center;
+}
+
+th{
+    font-size: 18px;
+}
+
+td{
+    font-size: 17px;
+    font-style: italic;
+}

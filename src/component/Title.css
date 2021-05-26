@@ -1,0 +1,33 @@
+@import "../Constants.css";
+
+.header{
+    position: fixed;
+    top:0;
+    left:0;
+    height: 50px;
+    width: 100%;
+    background: var(--pharmacy-green);
+    z-index: 10;
+    display: flex;
+    align-items: center;
+}
+
+.navbar_link{
+    margin: 0 15px;
+    color: var(--pharmacy-white);
+    cursor: pointer;
+    font-family: "Reggae One";
+    text-decoration: none;
+}
+
+.navbar_link.active{
+    color:var(--pharmacy-grey);
+}
+
+.header h1{
+    position: relative;
+    font-family: "Reggae One";
+    color: var(--pharmacy-white);
+    margin: 0;
+    left: calc(50% - 290px);
+}

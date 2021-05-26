@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+
+:root{
+    --pharmacy-green:rgba(1,71,0,1);
+    --pharmacy-white:rgba(255,255,255,1);
+    --pharmacy-grey:rgba(99,99,99,1);
+    --pharmacy-middle-green:rgba(111,155,127,1);
+}

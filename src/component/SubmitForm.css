@@ -1,0 +1,58 @@
+@import "../Constants.css";
+
+.submit_form{
+    font-family: Roboto;
+    margin: 0 auto;
+}
+
+.submit_form fieldset{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    border: 3px solid var(--pharmacy-green);
+}
+.submit_form label{
+    color: var(--pharmacy-green);
+}
+
+.title{
+    font-size: 22px;
+    margin-left: 5px;
+}
+
+.form_question{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+    width: 300px;
+}
+
+.form_question label{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.form_question input{
+    font-size: 20px;
+    height: 30px;
+    border: 2px solid var(--pharmacy-middle-green);
+    border-radius: 6px;
+    color:var(--pharmacy-green);
+    padding: 0 10px;
+}
+
+.form_question input:focus{
+    outline: transparent;
+}
+
+.submit_form input[type="submit"]{
+    margin: 10px 0;
+    width: 150px;
+    height: 30px;
+    border: 2px solid var(--pharmacy-green);
+    background: var(--pharmacy-middle-green);
+    font-size: 18px;
+    color:var(--pharmacy-white);
+}

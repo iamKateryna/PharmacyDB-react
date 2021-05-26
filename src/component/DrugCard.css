@@ -1,0 +1,42 @@
+@import "../Constants.css";
+
+
+.drug_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    margin: 0 20px 20px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: Roboto;
+    flex: 0 0 250px;
+}
+
+.drug_card_image{
+    width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+}
+
+.drug_card_image_container{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.drug_card_title{
+    font-size: 20px;
+    color:var(--pharmacy-green);
+}
+
+.drug_card_text{
+    color:var(--pharmacy-middle-green);
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+}

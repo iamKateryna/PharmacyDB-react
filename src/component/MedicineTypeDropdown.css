@@ -1,0 +1,14 @@
+@import "../Constants.css";
+
+.dropdown_list{
+    margin: 0 25px;
+    border: 2px solid var(--pharmacy-green);
+    color: var(--pharmacy-green);
+    background: var(--pharmacy-white);
+    font-size: 16px;
+    width: 110px;
+}
+
+.dropdown_list:focus{
+    outline: transparent;
+}

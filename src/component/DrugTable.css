@@ -1,0 +1,8 @@
+@import "../Constants.css";
+
+.drug_table{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 40px;
+    flex: 1 1 75%;
+}

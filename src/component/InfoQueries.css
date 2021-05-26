@@ -1,0 +1,24 @@
+@import "../Constants.css";
+
+.info_queries{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 0 1  600px;
+    align-items: center;
+}
+
+
+.info_queries.add{
+    position: relative;
+    width: 300px;
+    margin: 0 20px;
+}
+
+.info_queries_field{
+    position: relative;
+    margin-top: 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}

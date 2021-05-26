@@ -1,0 +1,32 @@
+@import "../Constants.css";
+
+.button{
+    border: 3px solid var(--pharmacy-green);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 10px;
+    flex: 1 1 auto;
+    width: 90%;
+    margin: 0 20px 20px 20px;
+    cursor: pointer;
+}
+
+.button p{
+    color: var(--pharmacy-green);
+    font-size: 20px;
+    margin-left:5px;
+}
+
+.button input{
+    color: var(--pharmacy-green);
+    border: 2px solid var(--pharmacy-middle-green);
+    width: 40px;
+    margin: 0 20px;
+    padding: 0 5px;
+    font-size: 20px;
+}
+
+.button input:focus{
+    outline: transparent;
+}
