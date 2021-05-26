@@ -60,7 +60,6 @@ export default class Table extends React.Component {
 
 
     render() {
-        console.log(this.state.information);
         return (
             <table className={"table"}>
                 {

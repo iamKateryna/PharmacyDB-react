@@ -38,7 +38,7 @@ export default class DrugTable extends React.Component {
                 continue;
 
             if(key === "technology"){
-                text += `${key} : ${value.id},`;
+                text += `${key} : ${value.components},`;
                 continue;
             }
             text +=  `${key} : ${value},`;

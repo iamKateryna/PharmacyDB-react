@@ -63,8 +63,10 @@ export default class SubmitForm extends React.Component {
     }
 
     handleSubmit(event) {
+        event.preventDefault();
         let data = this.state;
         this.sendRequest(data);
+
     }
 
     orderForm(){
