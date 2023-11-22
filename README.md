@@ -1,3 +1,12 @@
+# PharmacyDB
+Databases Coursework: a database and a web interface for a pharmacy.
+
+The backend part can be found [here](https://github.com/iamKateryna/PharmacyDB).
+
+________________________________________________________________________________________________________________
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
